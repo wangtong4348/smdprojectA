@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/com.unimelb.swen30006.mailroom.tong/Dropbox/assignments/SWEN30006/Assignment1/com"/>
+		<item value="/home/com.unimelb.swen30006.mailroom.tong/Dropbox/assignments/SWEN30006"/>
+		<item value="/home/com.unimelb.swen30006.mailroom.tong/Dropbox/assignments/SWEN30006/Assignment1/out/production/Assignment1"/>
+		<item value="/home/com.unimelb.swen30006.mailroom.tong/Dropbox/assignments/SWEN30006/Assignment1"/>
+	</list>
+	<section name="NewWizardAction">
+	</section>
+</section>

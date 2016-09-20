@@ -1,0 +1,3 @@
+This project uses strategy pattern which is a flexible design patter.
+The advantages are
+1. It can differenciate the roles of algorithm 

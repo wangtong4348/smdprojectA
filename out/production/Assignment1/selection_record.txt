@@ -1,0 +1,121 @@
+small_building
+
+
+SimpleSelectionStrategy
+========== SIMULATION COMPLETE ==========
+
+Delivered: 1000 packages
+Total Delivery Runs: 244.7
+Total Time Taken: 7706.6
+Total Delivery Bots: 1
+Average Time Per Bots: 7706.6
+Average Num Floors: 14.06783816918676
+Average Num Packages: 4.086636697997548
+
+
+SelectionByWeight
+========== SIMULATION COMPLETE ==========
+
+Delivered: 1000 packages
+Total Delivery Runs: 196.3
+Total Time Taken: 6779.5
+Total Delivery Bots: 1
+Average Time Per Bots: 6779.5
+Average Num Floors: 15.208354559347937
+Average Num Packages: 5.094243504839531
+
+
+SelectionByNoDist
+
+========== SIMULATION COMPLETE ==========
+
+Delivered: 1000 packages
+Total Delivery Runs: 208.9
+Total Time Taken: 6874.7
+Total Delivery Bots: 1
+Average Time Per Bots: 6874.7
+Average Num Floors: 14.548587841072282
+Average Num Packages: 4.786979415988511
+
+
+
+medium_building
+
+
+SimpleSelectionStrategy
+========== SIMULATION COMPLETE ==========
+
+Delivered: 1000 packages
+Total Delivery Runs: 1000.0
+Total Time Taken: 53200.0
+Total Delivery Bots: 8
+Average Time Per Bots: 6650.0
+Average Num Floors: 26.1
+Average Num Packages: 1.0
+
+
+
+SelectionByWeight
+
+========== SIMULATION COMPLETE ==========
+
+Delivered: 1000 packages
+Total Delivery Runs: 1000.0
+Total Time Taken: 53200.0
+Total Delivery Bots: 8
+Average Time Per Bots: 6650.0
+Average Num Floors: 26.1
+Average Num Packages: 1.0
+
+
+
+SelectionByNoDist
+========== SIMULATION COMPLETE ==========
+
+Delivered: 1000 packages
+Total Delivery Runs: 1000.0
+Total Time Taken: 53200.0
+Total Delivery Bots: 8
+Average Time Per Bots: 6650.0
+Average Num Floors: 26.1
+Average Num Packages: 1.0
+
+
+
+
+large_building 
+SimpleSelectionStrategy
+
+========== SIMULATION COMPLETE ==========
+
+Delivered: 1000 packages
+Total Delivery Runs: 1000.0
+Total Time Taken: 392736.0
+Total Delivery Bots: 20
+Average Time Per Bots: 19636.8
+Average Num Floors: 195.868
+Average Num Packages: 1.0
+
+SelectionByWeight
+========== SIMULATION COMPLETE ==========
+
+Delivered: 1000 packages
+Total Delivery Runs: 1000.0
+Total Time Taken: 392736.0
+Total Delivery Bots: 20
+Average Time Per Bots: 19636.8
+Average Num Floors: 195.868
+Average Num Packages: 1.0
+
+
+SelectionByNoDist
+========== SIMULATION COMPLETE ==========
+
+Delivered: 1000 packages
+Total Delivery Runs: 1000.0
+Total Time Taken: 392736.0
+Total Delivery Bots: 20
+Average Time Per Bots: 19636.8
+Average Num Floors: 195.868
+Average Num Packages: 1.0
+

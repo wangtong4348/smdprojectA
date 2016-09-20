@@ -1,0 +1,63 @@
+while (!finished) {
+				// Update the sorter
+				sorter.step();
+
+				
+				Summary[] summarys = storage.retrieveSummaries();
+				boolean anyBotBlocking = false;
+				int avalablebots = 0;
+				//get how many bot is current available
+				for (int b = 0; b < numBots; b++) {
+					if (bots[b].canFinish()) {
+						avalablebots++;
+					}
+				}
+				//Upa
+				if (summarys.length >= avalablebots || !generator.hasNextMail()) {
+					for (int b = 0; b < numBots; b++) {
+						bots[b].step();
+						anyBotBlocking = !bots[b].canFinish() || anyBotBlocking;
+					}
+
+					// Check if we are finished
+					finished = sorter.canFinish() && !anyBotBlocking;
+				}
+
+			}
+
+Delivered: 1000 packages
+Total Delivery Runs: 1000.0
+Total Time Taken: 53200.0
+Total Delivery Bots: 8
+Average Time Per Bots: 6650.0
+Average Num Floors: 26.1
+Average Num Packages: 1.0
+
+
+while(!finished){
+                // Update the sorter
+                sorter.step();
+
+                // Update all the delivery bots
+                Summary[] summarys = storage.retrieveSummaries();
+                boolean anyBotBlocking = false;
+
+                if(summarys.length>=numBots||!generator.hasNextMail()){
+                	for(int b=0; b<numBots; b++){
+                		bots[b].step();
+                		anyBotBlocking = !bots[b].canFinish() || anyBotBlocking;
+                	}
+
+
+                // Check if we are finished
+	                finished = sorter.canFinish() && !anyBotBlocking;
+                }
+                
+            }
+Delivered: 1000 packages
+Total Delivery Runs: 312.7
+Total Time Taken: 30857.2
+Total Delivery Bots: 8
+Average Time Per Bots: 3857.15
+Average Num Floors: 47.78957467220979
+Average Num Packages: 3.197953309881676
